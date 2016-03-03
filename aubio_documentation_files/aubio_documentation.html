@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0028)http://aubio.org/doc/latest/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta name="generator" content="Doxygen 1.8.3.1">
+<title>aubio: Main Page</title>
+<link href="./aubio_documentation_files/tabs.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./aubio_documentation_files/jquery.js"></script>
+<script type="text/javascript" src="./aubio_documentation_files/dynsections.js"></script>
+<link href="./aubio_documentation_files/search.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./aubio_documentation_files/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="./aubio_documentation_files/MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style>
+<link href="./aubio_documentation_files/doxygen.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head>
+<body><div id="MathJax_Message" style="display: none;"></div>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">aubio
+   &nbsp;<span id="projectnumber">0.4.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="http://aubio.org/doc/latest/index.html"><span>Main&nbsp;Page</span></a></li>
+      <li><a href="http://aubio.org/doc/latest/annotated.html"><span>Data&nbsp;Structures</span></a></li>
+      <li><a href="http://aubio.org/doc/latest/files.html"><span>Files</span></a></li>
+      <li><a href="http://aubio.org/doc/latest/examples.html"><span>Examples</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="./aubio_documentation_files/mag_sel.png" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" alt="">
+          <input type="text" id="MSearchField" value="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event)">
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="./aubio_documentation_files/close.png" alt=""></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">•</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">aubio Documentation</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="introduction"></a>
+Introduction</h1>
+<p>aubio is a library to extract annotations from audio signals: it provides a set of functions that take an input audio signal, and output pitch estimates, attack times (onset), beat location estimates, and other annotation tasks.</p>
+<h1><a class="anchor" id="basics"></a>
+Basics</h1>
+<p>All object structures in aubio share the same function prefixes and suffixes:</p>
+<ul>
+<li><code>new_aubio_foo</code> creates the object <code>foo</code> </li>
+<li><code>aubio_foo_do</code> executes the object <code>foo</code> </li>
+<li><code>del_aubio_foo</code> destroys the object <code>foo</code> </li>
+</ul>
+<p>All memory allocation and deallocation take place in the <code>new_</code> and <code>del_</code> functions. Optionally, more than one <code>_do</code> methods are available. Additional parameters can be adjusted and observed using:</p>
+<ul>
+<li><code>aubio_foo_get_param</code>, getter function, gets the value of a parameter</li>
+<li><code>aubio_foo_set_param</code>, setter function, changes the value of a parameter</li>
+</ul>
+<p>Unless specified in its documentation, no memory operations take place in the getter functions. However, memory resizing can take place in setter functions.</p>
+<h2><a class="anchor" id="vectors"></a>
+Vectors</h2>
+<p>Two basic structures are being used in aubio: <a class="el" href="http://aubio.org/doc/latest/structfvec__t.html" title="Buffer for real data.">fvec_t</a> and <a class="el" href="http://aubio.org/doc/latest/structcvec__t.html" title="Vector of real-valued phase and spectrum data.">cvec_t</a>. The <a class="el" href="http://aubio.org/doc/latest/structfvec__t.html" title="Buffer for real data.">fvec_t</a> structures are used to store vectors of floating pointer number. <a class="el" href="http://aubio.org/doc/latest/structcvec__t.html" title="Vector of real-valued phase and spectrum data.">cvec_t</a> are used to store complex number, as two vectors of norm and phase elements.</p>
+<p>Additionally, the <a class="el" href="http://aubio.org/doc/latest/structlvec__t.html" title="Buffer for real data in double precision.">lvec_t</a> structure can be used to store floating point numbers in double precision. They are mostly used to store filter coefficients, to avoid instability.</p>
+<h2><a class="anchor" id="objects"></a>
+Available objects</h2>
+<p>Here is a list of some of the most common objects for aubio:</p>
+<div class="fragment"><div class="line"><span class="comment">// fast Fourier transform (FFT)</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/fft_8h.html#ad506b94ab0c39da949d97064e394d2c9" title="FFT object.">aubio_fft_t</a> *fft = <a class="code" href="http://aubio.org/doc/latest/fft_8h.html#a4673d96bb99fa2e758352cc177516465" title="create new FFT computation object">new_aubio_fft</a> (winsize);</div>
+<div class="line"><span class="comment">// phase vocoder</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/phasevoc_8h.html#a0ab307b4e3ade23af88ccebbe81900e5" title="phasevocoder object">aubio_pvoc_t</a> *pv = <a class="code" href="http://aubio.org/doc/latest/phasevoc_8h.html#aff037315bd1ae2caca67ee95e735c31b" title="create phase vocoder object">new_aubio_pvoc</a> (winsize, stepsize);</div>
+<div class="line"><span class="comment">// onset detection</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/onset_8h.html#aab9be831df71952f95d3685f86fce281" title="onset detection object">aubio_onset_t</a> *onset = <a class="code" href="http://aubio.org/doc/latest/onset_8h.html#a00512092dd9dde0cdf0cf73b9109c149" title="create onset detection object">new_aubio_onset</a> (method, winsize, stepsize, samplerate);</div>
+<div class="line"><span class="comment">// pitch detection</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/pitch_8h.html#af76b14582e2b766e6b325038fe6426a0" title="pitch detection object">aubio_pitch_t</a> *pitch = <a class="code" href="http://aubio.org/doc/latest/pitch_8h.html#a962561ea270e0308ed26ac9bab554550" title="creation of the pitch detection object">new_aubio_pitch</a> (method, winsize, stepsize, samplerate);</div>
+<div class="line"><span class="comment">// beat tracking</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/tempo_8h.html#a4d9ae24f5a1ffe740169611a298e991b" title="tempo detection structure">aubio_tempo_t</a> *tempo = <a class="code" href="http://aubio.org/doc/latest/tempo_8h.html#aaa49f5d6554904a452d031775f385521" title="create tempo detection object">new_aubio_tempo</a> (method, winsize, stepsize, samplerate);</div>
+</div><!-- fragment --><p>See the <a href="http://aubio.org/doc/latest/globals_type.html">list of typedefs</a> for a complete list.</p>
+<h2><a class="anchor" id="example"></a>
+Example</h2>
+<p>Here is a simple example that creates an A-Weighting filter and applies it to a vector.</p>
+<div class="fragment"><div class="line"><span class="comment">// set window size, and sampling rate</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/types_8h.html#a12a1e9b3ce141648783a82445d02b58d" title="unsigned integer">uint_t</a> winsize = 1024, sr = 44100;</div>
+<div class="line"><span class="comment">// create a vector</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/structfvec__t.html" title="Buffer for real data.">fvec_t</a> *this_buffer = <a class="code" href="http://aubio.org/doc/latest/fvec_8h.html#aa9bc0906651523429a4ebf7b4342fe73" title="fvec_t buffer creation function">new_fvec</a> (winsize);</div>
+<div class="line"><span class="comment">// create the a-weighting filter</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/filter_8h.html#a49b09d27ea1ef7b06d9948048143f67a" title="Digital filter.">aubio_filter_t</a> *this_filter = <a class="code" href="http://aubio.org/doc/latest/a__weighting_8h.html#a99c12d2c155e374aa55f4c9bea923ef5" title="create new A-design filter">new_aubio_filter_a_weighting</a> (sr);</div>
+<div class="line"></div>
+<div class="line"><span class="keywordflow">while</span> (running) {</div>
+<div class="line">  <span class="comment">// here some code to put some data in this_buffer</span></div>
+<div class="line">  <span class="comment">// ...</span></div>
+<div class="line"></div>
+<div class="line">  <span class="comment">// apply the filter, in place</span></div>
+<div class="line">  <a class="code" href="http://aubio.org/doc/latest/filter_8h.html#aca218f7701ad142eb6c0ce95b2d1c49b" title="filter input vector (in-place)">aubio_filter_do</a> (this_filter, this_buffer);</div>
+<div class="line"></div>
+<div class="line">  <span class="comment">// here some code to get some data from this_buffer</span></div>
+<div class="line">  <span class="comment">// ...</span></div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="comment">// and free the structures</span></div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/filter_8h.html#a55e4be86dd74d9eddfe544bddc94e482" title="delete a filter object">del_aubio_filter</a> (this_filter);</div>
+<div class="line"><a class="code" href="http://aubio.org/doc/latest/fvec_8h.html#a86fad6d27aad91c910d1b48195922cb9" title="fvec_t buffer deletion function">del_fvec</a> (this_buffer);</div>
+</div><!-- fragment --><p>Several examples of C programs are available in the <code>examples/</code> and <code>tests/src</code> directories of the source tree.</p>
+<h2><a class="anchor" id="unstable_api"></a>
+Unstable API</h2>
+<p>Several more functions are available and used within aubio, but not documented here, either because they are not considered useful to the user, or because they may need to be changed in the future. However, they can still be used by defining AUBIO_UNSTABLE to 1 before including the aubio header:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#define AUBIO_UNSTABLE 1</span></div>
+<div class="line"><span class="preprocessor">#include &lt;aubio/aubio.h&gt;</span></div>
+</div><!-- fragment --><p>Future versions of aubio could break API compatibility with these functions without warning. If you choose to use functions in AUBIO_UNSTABLE, you are on your own.</p>
+<h1><a class="anchor" id="download"></a>
+Download</h1>
+<p>Latest versions, further documentation, examples, wiki, and mailing lists can be found at <a href="http://aubio.org/">http://aubio.org</a> . </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"><address class="footer"><small>
+Generated on Wed Mar 12 2014 15:43:22 for aubio by &nbsp;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="./aubio_documentation_files/doxygen.png" alt="doxygen">
+</a> 1.8.3.1
+</small></address>
+
+
+</body></html>
