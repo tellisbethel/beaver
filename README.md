@@ -1,7 +1,7 @@
 # beaver
 
 ## About ##
-Beaver is a proof of concept final project completed as a requirement for the Acadia University Computer Science Department course COMP 4983, under the supervision of Dr. Darcy Benoit.
+Beaver is a proof of concept final project (written in C and C++) conceived of and completed by Tellis Bethel as a requirement for the Acadia University Computer Science Department course COMP 4983, under the supervision of Dr. Darcy Benoit.
 
 Simply put, Beaver is a separated single source electronic drum set, unlike a normal electronic drum kit/set wherein sensors found in each component pad send signals to trigger a pad's associated audio sample. Although Beaver's usage is analogous to electronic drum kit usage in terms of object striking and audio sample playback, a number of key differences exist.
 
